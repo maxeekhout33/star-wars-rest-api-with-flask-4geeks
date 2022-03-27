@@ -1,3 +1,15 @@
+# Pasos para el funcionamiento y prueba:
+ - Levantat la db con el comando: sudo service postgresql start
+ - Corro el servidor con el comando: pipenv run start
+ - Para poblar la db con el script creado: pipenv run populate_db
+ - Para abrir la db de star_wars: sudo -u postgres psql -d star_wars
+ - Para ver las tablas de la db: \d
+ - Para ver todos los contenidos de alguna tabla: select * from public.nombredetabla;
+ - Para borrar los registros de una tabla: delete from public.nombredelatabla;
+ - Para hacer solicitudes desde thunder client: localhost:5000/resource/id
+
+
+
 # Flask Boilerplate for Profesional Development
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/from-referrer/)
